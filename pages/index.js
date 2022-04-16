@@ -11,7 +11,6 @@ function Home() {
 
 function Contador() {
     const [contador, setContador] = useState(1); //atualzaContador, setContador convenção... 
-
     //let contador = 10;
 
     function adicionarContador() {
