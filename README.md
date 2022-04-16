@@ -33,3 +33,5 @@ Shift + Command + P : Abre a linha de comando no VS.code ...
 
 Rodar: Simple Browser: Show 
 
+DEMO: no vercel !!!
+https://twitter-react-ksl8jhs9g-oguima.vercel.app/
