@@ -1,9 +1,27 @@
 import { useState } from 'react';
 
-function Home() {
+import Image from 'next/image';
+import Head from 'next/head';
+//import Link from 'next/link';
+//<Link rel="icon" href="/images/favicon.ico" />
+
+import MainCarousel from '../components/mainCarousel/mainCarousel';
+//<MainCarousel />
+
+export default function Home() {
     return (
-        <div> 
+        <div id="home">
+            <Head>
+                <title>Twitter Oguima</title>
+            </Head> 
+            <MainCarousel />
             <div>Home</div>
+            <Image
+                src="/images/avatar.png" 
+                height={144} 
+                width={144} 
+                alt="Rafael"
+            />
             <Contador />
         </div>
     )
@@ -26,5 +44,3 @@ function Contador() {
         </div>
     )
 }
-
-export default Home 

@@ -35,3 +35,16 @@ Rodar: Simple Browser: Show
 
 DEMO: no vercel !!!
 https://twitter-react-theta.vercel.app/
+
+Swiper:
+https://swiperjs.com/react
+$ npm i swiper
+
+SASS:
+$ npm install sass
+
+$ npm install --save-dev sass
+
+sass styles.scss styles.css
+
+sass mainCarousel.module.scss mainCarousel.module.css
